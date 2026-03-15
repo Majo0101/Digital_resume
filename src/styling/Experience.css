@@ -1,0 +1,35 @@
+@supports (height: 100svh) {
+      .experienceCanvas {
+            min-height: 100svh;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5svh;
+      }
+}
+
+.experienceCanvas {
+      min-height: 100vh;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 5vh;
+}
+
+.experienceDashed {
+      border: 1px dashed #9d9d9d;
+}
+
+.experienceHeader {
+      border: 1px solid #ffffff;
+      border-radius: 500px;
+}
+
+.experienceTitleCenter {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+}
+
+.experienceArrow {
+      transform: rotate(270deg);
+      aspect-ratio: 1;
+}

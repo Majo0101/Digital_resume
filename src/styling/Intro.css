@@ -1,0 +1,257 @@
+@supports(height: 100svh){
+	:root{
+		--BarcodeHeight: 15svh;
+		--BarcodeMax: 80vh
+		--AnimationTop: 75svh;
+		--AnimationBott: 5svh;
+		--CanvasHeight: 100svh;
+	}
+}
+
+:root {
+	--BarcodeHeight: 15vh;
+	--BarcodeMax: 80vh
+	--AnimationTop: 75vh;
+	--AnimationBott: 5vh;
+	--CanvasHeight: 100vh;
+}
+
+@supports(height: 100svh){
+	.canvasIntro {
+		min-height: var(--CanvasHeight);
+		padding-left: 5% !important;
+		padding-right: 5% !important;
+		padding-top: var(--AnimationTop);
+		animation: b 0.5s 1.5s ease forwards;
+	}
+}
+
+.canvasIntro {
+	min-height: var(--CanvasHeight);
+	padding-left: 5% !important;
+	padding-right: 5% !important;
+	padding-top: var(--AnimationTop);
+	animation: b 0.5s 1.5s ease forwards;
+}
+
+@keyframes b {
+	0% {
+		padding-top: var(--AnimationTop);
+	}
+	100% {
+		padding-top: var(--AnimationBott);
+	}
+}
+
+
+@supports(height: 100svh){
+	.introBarcode {
+		width: 100%;
+		height: var(--BarcodeHeight);
+		min-height: 110px;
+		animation: a 1s 1.5s ease;
+	}
+}
+
+.introBarcode {
+	width: 100%;
+	height: var(--BarcodeHeight); 
+	min-height: 110px;
+	animation: a 1s 1.5s ease;
+}
+
+@keyframes a {
+	0% {
+		height: var(--BarcodeHeight);
+	}
+	50% {
+		height: var(--BarcodeMax);
+	}
+	100% {
+		height: var(--BarcodeHeight);
+	}
+}
+
+
+
+.introName {
+	text-shadow: None;
+	transition: text-shadow 0.2s;
+}
+
+.introName:hover {
+	text-shadow: 1px 1px #c0f203;
+	transition: text-shadow 0.2s;
+}
+
+.introMenu {
+	text-shadow: None;
+	transition: text-shadow 0.2s;
+	rotate: x 90deg;
+	animation: c 0.7s 2.5s ease forwards;
+}
+
+.introAnimationC {
+	rotate: x 90deg;
+	animation: c 0.7s 2.5s ease forwards;
+}
+
+@keyframes c {
+	0% {
+		rotate: x 90deg;
+	}
+	100% {
+		rotate: x 0deg;
+	}
+}
+
+.introMenu:hover {
+	text-shadow: 1px 1px #c0f203;
+	transition: text-shadow 0.2s;
+}
+
+.introDashedBorder {
+	border-bottom: 1px dashed rgba(255, 255, 255, 0);
+	animation: d 0.5s 2.5s ease forwards;
+}
+
+@keyframes d {
+	0% {
+		border-bottom: 1px dashed rgba(255, 255, 255, 0);
+	}
+	100% {
+		border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+	}
+}
+
+.introMenuArrow {
+	height: 1rem;
+	aspect-ratio: 1;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0.4rem;
+	transition: margin-left 0.3s, margin-bottom 0.3s;
+}
+
+.introMenu:hover > .introMenuArrow {
+	margin-bottom: 0.8rem;
+	margin-left: 0.8rem;
+	transition: margin-left 0.3s, margin-bottom 0.3s;
+}
+
+.introMenuCenter {
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+
+@supports(height: 100svh){
+	.introArrowGreen {
+		height: 7svh;
+		aspect-ratio: 1;
+	}
+}
+.introArrowGreen {
+	height: 7vh;
+	aspect-ratio: 1;
+}
+
+.introSmallText {
+	margin: 0;
+	cursor: default;
+}
+
+.introCursor {
+	cursor: default;
+}
+
+.introBrand {
+	cursor: pointer;
+	text-shadow: None;
+	transition: text-shadow 0.2s;
+}
+
+.introBrand:hover {
+	text-shadow: 2px 2px #c0f203;
+	transition: text-shadow 0.2s;
+}
+
+@supports(height: 100svh){
+	.introGap{
+		height: 5svh;
+		min-height: 10px;
+	}
+}
+.introGap{
+	height: 5vh;
+	min-height: 10px;
+}
+
+@supports(height: 100svh){
+	.introArrowCircle {
+		height: 10svh;
+		margin-left: 0;
+		margin-bottom: 2rem;
+		margin-top: 0;
+		aspect-ratio: 1;
+		animation: jumpingArrow 2s ease infinite;
+	}
+}
+
+.introArrowCircle {
+	height: 10vh;
+	margin-left: 0;
+	margin-bottom: 2rem;
+	margin-top: 0;
+	aspect-ratio: 1;
+	animation: jumpingArrow 2s ease infinite;
+}
+
+@keyframes jumpingArrow {
+	0% {
+		margin-bottom: 2rem;
+		margin-top: 0;
+		margin-left: 0;
+	}
+	50% {
+		margin-bottom: 0;
+		margin-top: 2rem;
+		margin-left: 2rem;
+	}
+	100% {
+		margin-bottom: 2rem;
+		margin-top: 0;
+		margin-left: 0;
+	}
+}
+
+@supports(height: 100svh){
+	.introArrowCircleSmall {
+		height: 9svh;
+		width: 9svh;
+		min-height: 70px;
+		min-width: 70px;
+		rotate: 90deg;
+		display: none;
+		margin-bottom: 10px;
+	}
+}
+.introArrowCircleSmall {
+	height: 9vh;
+	width: 9vh;
+	min-height: 70px;
+	min-width: 70px;
+	aspect-ratio: 1;
+	rotate: 90deg;
+	display: none;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1440px) {
+	.introHideElement {
+		display: none;
+	}
+
+	.introArrowCircleSmall {
+		display: inline;
+	}
+}

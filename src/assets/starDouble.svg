@@ -1,0 +1,12 @@
+<svg id="eRBopWl3fa01" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <rect width="300" height="300" rx="0" ry="0" fill="#fff" stroke-width="0"/>
+    <ellipse rx="125.215921" ry="125.352789" transform="matrix(1.36515 0 0 1.341484 320.938515-18.158759)"
+             fill="#c0f203" stroke-width="0"/>
+    <ellipse rx="125.215921" ry="125.352789" transform="matrix(1.36515 0 0 1.341484-20.938515-18.158759)" fill="#c0f203"
+             stroke-width="0"/>
+    <ellipse rx="125.215921" ry="125.352789" transform="matrix(1.36515 0 0 1.341484-20.938515 318.158762)"
+             fill="#242424" stroke-width="0"/>
+    <ellipse rx="125.215921" ry="125.352789" transform="matrix(1.36515 0 0 1.341484 320.938515 318.158759)"
+             fill="#242424" stroke-width="0"/>
+</svg>

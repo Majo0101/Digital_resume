@@ -1,0 +1,9 @@
+<svg id="epPHWCrgT1v1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <line x1="150" y1="-150" x2="-150" y2="150" transform="matrix(.971493 0.000357-.000357 0.971029 149.777442 150)"
+          fill="none" stroke="#c0f203" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="107.800407" x2="0" y2="-107.800407" transform="matrix(-1 0 0 1.094533 4 176.991103)" fill="none"
+          stroke="#c0f203" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="107.800407" x2="0" y2="-107.800407" transform="matrix(0-1-1.094533 0 122.991103 295.600813)"
+          fill="none" stroke="#c0f203" stroke-width="4" stroke-linecap="round"/>
+</svg>

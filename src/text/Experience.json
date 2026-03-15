@@ -1,0 +1,26 @@
+{
+      "EN": {
+            "name": "EXPERIENCE",
+            "fancyTitle1": "Engineering\u00A0",
+            "fancyTitle2": "and data\u00A0",
+            "fancyTitle3": "experience\u00A0",
+            "fancyTitle4": "in practice.\u00A0",
+            "infoText": "My professional path combines engineering, automation, and data work across different roles. From industrial electrical systems and automation technologies to data processing, analytics, and modern information systems."
+      },
+      "SK": {
+            "name": "SKÚSENOSTI",
+            "fancyTitle1": "Inžinierske\u00A0",
+            "fancyTitle2": "a dátové\u00A0",
+            "fancyTitle3": "skúsenosti\u00A0",
+            "fancyTitle4": "v praxi.\u00A0",
+            "infoText": "Moja pracovná cesta spája inžiniersku prax, automatizáciu a prácu s dátami v rôznych rolách. Od priemyselných elektrických systémov a automatizačných technológií až po spracovanie dát, analytiku a moderné informačné systémy."
+      },
+      "DE": {
+            "name": "ERFAHRUNG",
+            "fancyTitle1": "Engineering-\u00A0",
+            "fancyTitle2": "und Daten-\u00A0",
+            "fancyTitle3": "erfahrung\u00A0",
+            "fancyTitle4": "in der Praxis.\u00A0",
+            "infoText": "Mein beruflicher Weg verbindet Engineering, Automatisierung und Datenarbeit in verschiedenen Rollen. Von industriellen elektrischen Systemen und Automatisierungstechnologien bis hin zu Datenverarbeitung, Analytik und modernen Informationssystemen."
+      }
+}

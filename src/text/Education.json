@@ -1,0 +1,17 @@
+{
+  "EN": {
+    "education": "EDUCATION",
+    "title": "Academic Journey: From Secondary School to Higher Education",
+    "banner": "Let's learn!"
+  },
+  "SK": {
+    "education": "VZDELANIE",
+    "title": "Akademická cesta: Od strednej školy k vysokoškolskému štúdiu",
+    "banner": "Let's learn!"
+  },
+  "DE": {
+    "education": "BILDUNG",
+    "title": "Akademischer Werdegang: Von der Sekundarschule zur Hochschulbildung",
+    "banner": "Lernen wir!"
+  }
+}

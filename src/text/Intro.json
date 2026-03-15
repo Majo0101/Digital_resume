@@ -1,0 +1,44 @@
+{
+      "EN": {
+            "name": "MARIAN BODNAR",
+            "about": "ABOUT ME",
+            "experience": "EXPERIENCE",
+            "contact": "CONTACT",
+            "language": "EN",
+            "welcome": "Welcome to bmcode.eu.",
+            "infoPart1": "On this website you will find information about my work experience,",
+            "infoPart2": "as well as my education and professional training.",
+            "fancyText1": "DATA ",
+            "fancyText2": "SCIENCE & DATA ",
+            "fancyText3": "ENGINEERING ",
+            "fancyURL": "WWW.BMCODE.EU"
+      },
+      "SK": {
+            "name": "MARIÁN BODNÁR",
+            "about": "O MNE",
+            "experience": "SKÚSENOSTI",
+            "contact": "KONTAKT",
+            "language": "SK",
+            "welcome": "Vitajte na bmcode.eu.",
+            "infoPart1": "Na tejto webovej stránke nájdete informácie o mojich pracovných skúsenostiach,",
+            "infoPart2": "ako aj o mojom vzdelaní a odbornej príprave.",
+            "fancyText1": "DATA ",
+            "fancyText2": "SCIENCE & DATA ",
+            "fancyText3": "ENGINEERING ",
+            "fancyURL": "WWW.BMCODE.EU"
+      },
+      "DE": {
+            "name": "MARIAN BODNAR",
+            "about": "ÜBER MICH",
+            "experience": "ERFAHRUNG",
+            "contact": "KONTAKT",
+            "language": "DE",
+            "welcome": "Willkommen auf bmcode.eu.",
+            "infoPart1": "Auf dieser Website finden Sie Informationen über meine Berufserfahrung,",
+            "infoPart2": "sowie über meine Ausbildung und berufliche Weiterbildung.",
+            "fancyText1": "DATA ",
+            "fancyText2": "SCIENCE & DATA ",
+            "fancyText3": "ENGINEERING ",
+            "fancyURL": "WWW.BMCODE.EU"
+      }
+}

@@ -1,0 +1,32 @@
+{
+  "EN": {
+    "barcode": "BMCODE.EU",
+    "highFont1": "LET'S",
+    "highFont2": "TALK",
+    "highFont3": "BUSINESS",
+    "contact": "bodnar.marian@gmail.com",
+    "infoText": "Click the button to open your email client and start a conversation. Feel free to reach out with any questions, collaboration ideas, or opportunities.",
+    "resume": "DIGITAL RESUME",
+    "year": "©"
+  },
+  "SK": {
+    "barcode": "BMCODE.EU",
+    "highFont1": "LET'S",
+    "highFont2": "TALK",
+    "highFont3": "BUSINESS",
+    "contact": "bodnar.marian@gmail.com",
+    "infoText": "Kliknutím na tlačidlo otvoríte svoj e-mailový klient a môžete začať konverzáciu. Neváhajte sa ozvať s otázkami, nápadmi na spoluprácu alebo pracovnými príležitosťami.",
+    "resume": "DIGITAL RESUME",
+    "year": "©"
+  },
+  "DE": {
+    "barcode": "BMCODE.EU",
+    "highFont1": "LET'S",
+    "highFont2": "TALK",
+    "highFont3": "BUSINESS",
+    "contact": "bodnar.marian@gmail.com",
+    "infoText": "Klicken Sie auf die Schaltfläche, um Ihren E-Mail-Client zu öffnen und ein Gespräch zu starten. Sie können mich gerne bei Fragen, Kooperationsideen oder beruflichen Möglichkeiten kontaktieren.",
+    "resume": "DIGITALES RESÜMEE",
+    "year": "©"
+  }
+}

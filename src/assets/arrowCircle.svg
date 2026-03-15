@@ -1,0 +1,10 @@
+<svg id="eCv64QukJtN1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <ellipse rx="150" ry="150" transform="translate(150 150)" fill="#fff" stroke="#fff"/>
+    <line x1="80" y1="80" x2="-80" y2="-80" transform="matrix(.97528 0 0 0.975541 150 150)" fill="none" stroke="#242424"
+          stroke-width="8" stroke-linecap="round" stroke-miterlimit="1"/>
+    <line x1="55" y1="0" x2="-55" y2="0" transform="matrix(.999997 0 0 1 175 230)" fill="none" stroke="#242424"
+          stroke-width="8" stroke-linecap="round"/>
+    <line x1="55" y1="0" x2="-55" y2="0" transform="matrix(0 0.98819-1 0 230 175)" fill="none" stroke="#242424"
+          stroke-width="8" stroke-linecap="round"/>
+</svg>

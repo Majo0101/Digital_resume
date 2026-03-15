@@ -1,0 +1,14 @@
+{
+      "EN": {
+            "name": "CERTIFICATE",
+            "infoText": "You are looking at a selected certificate from the bmcode.eu gallery. You can find other certificates in the bmcode.eu gallery or on LinkedIn."
+      },
+      "SK": {
+            "name": "CERTIFIKÁT",
+            "infoText": "Prezeráte si vybraný certifikát z galérie bmcode.eu. Ďalšie certifikáty nájdete v galérii bmcode.eu alebo na LinkedIn."
+      },
+      "DE": {
+            "name": "ZERTIFIKAT",
+            "infoText": "Sie betrachten ein ausgewähltes Zertifikat aus der bmcode.eu-Galerie. Weitere Zertifikate finden Sie in der bmcode.eu-Galerie oder auf LinkedIn."
+      }
+}

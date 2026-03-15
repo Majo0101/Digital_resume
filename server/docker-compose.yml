@@ -1,0 +1,70 @@
+version: "3.9"
+
+# ─── Shared network ───────────────────────────────────────────────────────────
+networks:
+  bmcode_net:
+    driver: bridge
+
+# ─────────────────────────────────────────────────────────────────────────────
+services:
+
+  # ── MySQL 8 ─────────────────────────────────────────────────────────────────
+  db:
+    image: mysql:8.0
+    container_name: bmcode_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "${PORT_MYSQL}:3306"  # expose so you can connect with a GUI (e.g. TablePlus)
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d:ro     # auto-runs init.sql on every start
+    networks:
+      - bmcode_net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u${DB_USERNAME}", "-p${DB_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Apache + PHP 8.2 ────────────────────────────────────────────────────────
+  php:
+    build:
+      context: .         # server/ folder — uses ./Dockerfile
+    container_name: bmcode_apache
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy   # wait until MySQL is ready
+    environment:
+      DB_HOST: ${DB_HOST}             # matches the service name above
+      DB_NAME: ${DB_NAME}
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+      CORS_ORIGIN: ${CORS_ORIGIN}
+    ports:
+      - "${PORT_APP}:80"             # site available at http://localhost:${PORT_APP}
+    volumes:
+      # Mount the Vite build output — contains index.html, assets/ AND the PHP scripts
+      - ../dist:/var/www/html:ro
+    networks:
+      - bmcode_net
+
+  # ── phpMyAdmin (optional – handy for inspecting the DB) ───────────────────
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: bmcode_phpmyadmin
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: ${DB_HOST}
+      PMA_USER: ${DB_USERNAME}
+      PMA_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "${PORT_PMA}:80"             # open http://localhost:${PORT_PMA} in your browser
+    networks:
+      - bmcode_net

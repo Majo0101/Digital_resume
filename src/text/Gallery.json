@@ -1,0 +1,26 @@
+{
+  "EN": {
+    "name": "CERTIFICATIONS",
+    "fancyTitle1": "Certifications\u00A0",
+    "fancyTitle2": "and continuous\u00A0",
+    "fancyTitle3": "learning\u00A0",
+    "fancyTitle4": "journey.\u00A0",
+    "infoText": "A selection of certifications related to data engineering, analytics, and software development. The full list of certificates is available on my LinkedIn profile."
+  },
+  "SK": {
+    "name": "CERTIFIKÁTY",
+    "fancyTitle1": "Certifikáty\u00A0",
+    "fancyTitle2": "a kontinuálne\u00A0",
+    "fancyTitle3": "vzdelávanie\u00A0",
+    "fancyTitle4": "v IT.\u00A0",
+    "infoText": "Výber certifikátov z oblasti dátového inžinierstva, analytiky a vývoja softvéru. Kompletný zoznam certifikátov je dostupný na mojom LinkedIn profile."
+  },
+  "DE": {
+    "name": "ZERTIFIKATE",
+    "fancyTitle1": "Zertifikate\u00A0",
+    "fancyTitle2": "und kontinuierliches\u00A0",
+    "fancyTitle3": "Lernen\u00A0",
+    "fancyTitle4": "im IT-Bereich.\u00A0",
+    "infoText": "Eine Auswahl von Zertifikaten aus den Bereichen Data Engineering, Analytik und Softwareentwicklung. Die vollständige Liste der Zertifikate ist auf meinem LinkedIn-Profil verfügbar."
+  }
+}

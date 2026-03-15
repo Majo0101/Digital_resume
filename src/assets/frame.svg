@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="210.000000pt" height="210.000000pt" viewBox="0 0 210.000000 210.000000" preserveAspectRatio="xMidYMid meet">
+
+    <defs>
+        <mask id="maskShape">
+            <rect width="100%" height="100%" fill="white"/>
+            <g transform="translate(0.000000,203.000000) scale(0.100000,-0.100000)">
+                <path d="M1030 1660 c-51 -9 -87 -31 -161 -98 -86 -76 -117 -95 -214 -127 -133 -45 -177 -73 -200 -128 -19 -46 -19 -91 0 -190 19 -101 19 -179 -1 -286 -35 -187 0 -248 179 -307 114 -37 142 -53 227 -128 134 -119 203 -134 306 -68 32 21 66 47 74 57 36 45 134 105 212 130 103 34 167 68 193 103 26 36 31 119 11 223 -20 106 -20 166 -1 266 40 206 11 257 -185 323 -107 36 -142 57 -228 134 -92 82 -148 107 -212 96z"/>
+            </g>
+        </mask>
+    </defs>
+
+    <!-- Rectangle filled with white and masked by the path -->
+    <rect width="100%" height="100%" fill="#FFFFFF" mask="url(#maskShape)" />
+
+</svg>

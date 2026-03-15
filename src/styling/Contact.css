@@ -1,0 +1,137 @@
+@supports (height: 100svh) {
+      :root {
+            --ContactArrowDivH: 15svh;
+            --ContactArrowDivY: 7.5svh;
+            --ContactArrowImgH: 7svh;
+            --ContactArrowImgH-: -7svh;
+            --ContactMailAnim-: -30svh;
+      }
+}
+
+:root {
+      --ContactArrowDivH: 15vh;
+      --ContactArrowDivY: 7.5vh;
+      --ContactArrowImgH: 7vh;
+      --ContactArrowImgH-: -7vh;
+      --ContactMailAnim-: -30vh;
+}
+
+@supports (height: 100svh) {
+      .contactCanvas {
+            height: auto;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5svh;
+      }
+}
+
+.contactCanvas {
+      height: auto;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 5vh;
+}
+
+.contactArrow {
+      height: var(--ContactArrowDivH);
+      aspect-ratio: 1;
+      transform: translateY(var(--ContactArrowDivY));
+      cursor: pointer;
+      border-radius: 1000px;
+      overflow: hidden;
+}
+
+.contactArrowDiv {
+      height: var(--ContactArrowImgH);
+      transform: translateY(0);
+      transition: transform 0.5s;
+}
+
+.contactArrowImg {
+      transform: rotate(-45deg);
+      height: 99%;
+}
+
+.contactArrow:hover .contactArrowDiv {
+      transform: translateY(var(--ContactArrowImgH-));
+      transition: transform 0.3s;
+}
+
+.contactBBtext {
+      text-align: center;
+}
+
+.contactMailH {
+      height: 0;
+}
+
+.contactMail {
+      display: inline-block;
+      border-radius: 500px;
+      transform: rotate(-5deg);
+      background-color: #c0f203;
+      color: #242424 !important;
+      overflow: visible;
+      cursor: pointer;
+      transition: background-color 0.2s color 0.2s;
+      position: relative;
+}
+
+.contactMail:hover {
+      background-color: #242424;
+      color: #c0f203 !important;
+      transition: background-color 0.2s color 0.2s;
+}
+
+.contactMailRotate {
+      display: inline-block;
+      transform: rotateX(0);
+      transition: transform 0.4s;
+}
+
+.contactMail:hover .contactMailRotate {
+      transform: rotateX(360deg);
+      transition: transform 0.4s;
+}
+
+.contactInView {
+      transform: translateY(var(--ContactMailAnim-));
+      transition: transform 0.5s ease;
+      z-index: 3;
+}
+
+.contactNoView {
+      transform: translateY(0);
+      transition: transform 0.5s ease;
+      z-index: 3;
+}
+
+@media (max-width: 1199px) {
+      @supports (height: 100svh) {
+            .contactArrow {
+                  margin-right: 7svw;
+            }
+      }
+
+      .contactArrow {
+            margin-right: 7vw;
+      }
+
+      .infoTextY {
+            transform: translateY(var(--ContactArrowImgH));
+      }
+}
+
+@media (max-width: 576px) {
+      .contactInView {
+            transform: translateY(-3svh);
+            transition: transform 0.5s ease;
+            z-index: 3;
+      }
+
+      .contactNoView {
+            transform: translateY(2svh);
+            transition: transform 0.5s ease;
+            z-index: 3;
+      }
+}

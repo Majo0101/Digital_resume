@@ -1,0 +1,21 @@
+@keyframes loadingAnimation {
+      0% {
+            background-position: -50% 0;
+      }
+      100% {
+            background-position: 150% 0;
+      }
+}
+
+.loadingEffect {
+      height: 50px; 
+      width: 100%;
+      background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0.15) 50%,
+            rgba(255, 255, 255, 0) 100%
+      );
+      background-size: 200% 100%;
+      animation: loadingAnimation 1.5s linear infinite;
+}

@@ -1,0 +1,121 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+      font-synthesis: none;
+      font-kerning: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-text-size-adjust: 100%;
+      touch-action: manipulation;
+      scrollbar-width: none;
+      background-color: #ffffff;
+      /* -webkit-user-select: none; */
+      user-select: none;
+}
+
+html {
+      scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+      display: none;
+}
+
+@font-face {
+      font-family: "Rajdhani";
+      src: local("Rajdhani"), url("/src/assets/Rajdhani.ttf") format("truetype");
+}
+
+@font-face {
+      font-family: "Rajdhani-Light";
+      src: local("Rajdhani-Light"),
+            url("/src/assets/Rajdhani-Light.ttf") format("truetype");
+}
+
+@font-face {
+      font-family: "Rajdhani-Bold";
+      src: local("Rajdhani-Bold"),
+            url("/src/assets/Rajdhani-Bold.ttf") format("truetype");
+}
+
+@font-face {
+      font-family: "QuickSand";
+      src: local("Quicksand-Regular"),
+            url("/src/assets/Quicksand-Regular.ttf") format("truetype");
+}
+
+@font-face {
+      font-family: "Roboto";
+      src: local("Roboto-Medium"),
+            url("/src/assets/Roboto-Medium.ttf") format("truetype");
+}
+
+.canvasGreen {
+      background-color: #c0f203;
+}
+
+.canvasGrey {
+      background-color: #242424;
+}
+
+.canvasWhite {
+      background-color: #ffffff;
+}
+
+.colorGreen {
+      color: #c0f203 !important;
+}
+
+.colorGrey {
+      color: #242424 !important;
+}
+
+.colorWhite {
+      color: #ffffff !important;
+}
+
+.colorShadow {
+      color: #9d9d9d !important;
+}
+
+.colorLightShadow {
+      color: #f0f0f0 !important;
+}
+
+.rajdhaniLight {
+      font-family: Rajdhani-Light, sans-serif;
+      color: white;
+}
+
+.rajdhani {
+      font-family: Rajdhani, sans-serif;
+      color: white;
+}
+
+.rajdhaniBold {
+      font-family: Rajdhani-Bold, sans-serif;
+      color: white;
+}
+
+.quickSand {
+      font-family: QuickSand, sans-serif;
+      color: white;
+}
+
+.roboto {
+      font-family: Roboto, sans-serif;
+      color: white;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+}

@@ -1,0 +1,17 @@
+{
+      "EN": {
+      "about": "ABOUT ME",
+      "hello": "Hello, I'm Marian.",
+      "intro": "I am an IT professional focused on data engineering and analytics. In my work I design and build data pipelines, process large datasets using Apache Spark, and develop analytical solutions in modern data platforms such as Microsoft Fabric and Databricks. My primary tools include Python, SQL, and distributed data processing frameworks, which I use to transform raw data into structured datasets for analytics and machine learning. Alongside my professional work, I am an external student at the Faculty of Informatics, where I continue to deepen my knowledge in data science and software engineering."
+      },
+      "SK": {
+      "about": "O MNE",
+      "hello": "Ahoj, som Marian.",
+      "intro": "Som IT profesionál zameraný na data engineering a analytiku. Vo svojej práci navrhujem a budujem dátové pipeline, spracovávam veľké dátové objemy pomocou Apache Spark a vyvíjam analytické riešenia na moderných dátových platformách ako Microsoft Fabric a Databricks. Mojimi hlavnými nástrojmi sú Python, SQL a distribuované dátové frameworky, ktoré používam na transformáciu surových dát do analytických datasetov pre reporting a machine learning. Popri práci študujem externe na Fakulte informatiky, kde si ďalej prehlbujem znalosti v oblasti data science a softvérového inžinierstva."
+      },
+      "DE": {
+      "about": "ÜBER MICH",
+      "hello": "Hallo, ich bin Marian.",
+      "intro": "Ich bin ein IT-Spezialist mit Schwerpunkt auf Data Engineering und Datenanalyse. In meiner Arbeit entwerfe und entwickle ich Datenpipelines, verarbeite große Datenmengen mit Apache Spark und entwickle analytische Lösungen auf modernen Datenplattformen wie Microsoft Fabric und Databricks. Zu meinen wichtigsten Werkzeugen gehören Python, SQL und Frameworks für verteilte Datenverarbeitung, mit denen ich Rohdaten in strukturierte Datensätze für Analysen und Machine Learning transformiere. Neben meiner beruflichen Tätigkeit studiere ich extern an der Fakultät für Informatik, wo ich meine Kenntnisse in Data Science und Software Engineering weiter vertiefe."
+      }
+}

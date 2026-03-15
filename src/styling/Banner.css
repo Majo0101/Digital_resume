@@ -1,0 +1,61 @@
+:root {
+      --BannerImageW: 12vh;
+      --BannerImageT: calc(-12vh * 20);
+}
+
+.bannerCanvas {
+      height: auto;
+}
+
+.bannerLineA {
+      margin-left: -5% !important;
+      min-width: 150vw;
+      transform-origin: top left;
+      transform: rotate(1.5deg);
+      padding-left: 10%;
+}
+
+.bannerLineB {
+      margin-left: -5% !important;
+      width: 10000px;
+      transform-origin: top left;
+      transform: rotate(-1.5deg);
+      white-space: nowrap;
+}
+
+.bannerLineB img {
+      vertical-align: middle;
+      width: var(--BannerImageW);
+      margin-right: var(--BannerImageW);
+      display: inline-block;
+      filter: invert(85%) sepia(55%) saturate(0%) hue-rotate(252deg) brightness(109%) contrast(100%);
+      animation-name: scroll-right;
+      animation-duration: 50s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+}
+
+@keyframes scroll-right {
+      0% {
+            transform: translateX(0);
+      }
+      100% {
+            transform: translateX(var(--BannerImageT));
+      }
+}
+
+.bannerLineC {
+      margin-left: -5% !important;
+      width: 150vw;
+}
+
+.bannerShortText {
+      font-size: 16px;
+      transform: rotate(-2deg);
+}
+
+.bannerShortText button {
+      text-shadow: none;
+      border-bottom: none;
+      border-top: none;
+}
