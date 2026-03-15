@@ -1,6 +1,6 @@
 # Digital Resume
 
-My personal digital resume — a full-stack single-page portfolio website built with **React + Vite**. Dynamic content (education, experience, gallery) is served by a **PHP 8.2 / MySQL 8** REST API. Development runs entirely in **Docker Compose**; the production build is a standard `dist/` output that deploys to any Apache/PHP web host.
+My personal digital resume a full-stack single-page portfolio website built with **React + Vite**. Dynamic content (education, experience, gallery) is served by a **PHP 8.2 / MySQL 8** REST API. Development runs entirely in **Docker Compose** the production build is a standard `dist/` output that deploys to any Apache/PHP web host.
 
 ---
 
@@ -111,20 +111,6 @@ npm run docker:dev
 # Stop and remove containers
 npm run docker:down
 ```
-
-### Frontend-only (mock API, no Docker)
-
-Use `json-server` to mock the PHP endpoints and run Vite's HMR dev server:
-
-```bash
-# Run each in a separate terminal
-npm run dev    # Vite dev server (HMR)
-npm run edu    # Mock education API  → port 3001
-npm run exp    # Mock experience API → port 3002
-npm run gall   # Mock gallery API    → port 3003
-```
-
----
 
 ## Production Deployment (standard hosting)
 
