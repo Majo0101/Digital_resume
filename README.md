@@ -145,14 +145,11 @@ All tables include a `lang` column (`EN`, `SK`, …) for multi-language content.
 
 | Script | Description |
 |---|---|
-| `npm run dev` | Vite HMR dev server (frontend only) |
-| `npm run edu / exp / gall` | Mock API servers via json-server |
 | `npm run build:dev` | Development build + PHP env injection → `dist/` |
 | `npm run build` | Production build + PHP env injection → `dist/` |
 | `npm run docker:dev` | Start Docker stack with `.env.development` |
 | `npm run docker:prod` | Start Docker stack with `.env.production` |
 | `npm run docker:down` | Stop and remove all Docker containers |
-| `npm run docker:down` | Stop and remove Docker containers |
 | `npm run lint` | Run ESLint |
 | `npm run preview` | Preview the Vite production build locally |
 
